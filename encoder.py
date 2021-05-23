@@ -28,9 +28,10 @@ def ktov(l):
 
 for i in range(40):
     mycode = swap(mycode)
-print(mycode, "\n")
 
-message = 'the massive door turned over and over in its sleep until the little fox jumped'
+
+
+message = input('Enter sentence to encrypt: ')
 
 m = []
 m.append(list(message.lower().rstrip()))
@@ -38,9 +39,8 @@ m = [item for sublist in m for item in sublist]
     
 
 codedtext = ktov(m)
-print(message, "\n")
-print(m, "\n")
-print(codedtext)
+
 
 with open("code.txt", "w") as f:
     f.write(codedtext)
+

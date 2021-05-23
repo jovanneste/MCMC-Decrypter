@@ -28,7 +28,7 @@ def vtok(l):
     return "".join(numlist)
 
 
-
+print('loading sample english...')
 with open("sampleEnglish.txt") as f:
     sample = []
     for line in f:
