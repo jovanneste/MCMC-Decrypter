@@ -1,1 +1,1 @@
-# decoder
+# Decrypter using MCMC sampler
