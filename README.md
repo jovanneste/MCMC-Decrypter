@@ -1,6 +1,3 @@
-# Decrypter using MCMC sampler
+# NL decrypter using MCMC sampling
 
-
-Objective fucntion - how much is this current sentence like english 
-
-Uses random search optimisation with simulated annealing to acheive best objective funciton.
+Using random search optimisation with simulated annealing to decrypt NL.
